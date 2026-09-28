@@ -1,0 +1,289 @@
+Region,Season,Crop
+Andhra Pradesh,Winter,Rice
+Andhra Pradesh,Winter,Cotton
+Andhra Pradesh,Summer,Cotton
+Andhra Pradesh,Summer,Sugarcane
+Andhra Pradesh,Monsoon,Rice
+Andhra Pradesh,Monsoon,Maize
+Andhra Pradesh,Spring,Pulses
+Andhra Pradesh,Spring,Oilseeds
+Arunachal Pradesh,Winter,Rice
+Arunachal Pradesh,Winter,Maize
+Arunachal Pradesh,Summer,Rice
+Arunachal Pradesh,Summer,Tea
+Arunachal Pradesh,Monsoon,Rice
+Arunachal Pradesh,Monsoon,Orange
+Arunachal Pradesh,Spring,Maize
+Arunachal Pradesh,Spring,Pineapple
+Assam,Winter,Rice
+Assam,Winter,Jute
+Assam,Summer,Tea
+Assam,Summer,Rice
+Assam,Monsoon,Rice
+Assam,Monsoon,Jute
+Assam,Spring,Rice
+Assam,Spring,Tea
+Bihar,Winter,Wheat
+Bihar,Winter,Rice
+Bihar,Summer,Rice
+Bihar,Summer,Maize
+Bihar,Monsoon,Rice
+Bihar,Monsoon,Pulses
+Bihar,Spring,Wheat
+Bihar,Spring,Maize
+Chhattisgarh,Winter,Rice
+Chhattisgarh,Winter,Maize
+Chhattisgarh,Summer,Rice
+Chhattisgarh,Summer,Pulses
+Chhattisgarh,Monsoon,Rice
+Chhattisgarh,Monsoon,Oilseeds
+Chhattisgarh,Spring,Maize
+Chhattisgarh,Spring,Pulses
+Goa,Winter,Rice
+Goa,Winter,Coconut
+Goa,Summer,Cashew
+Goa,Summer,Rice
+Goa,Monsoon,Coconut
+Goa,Monsoon,Banana
+Goa,Spring,Rice
+Goa,Spring,Cashew
+Gujarat,Winter,Wheat
+Gujarat,Winter,Cotton
+Gujarat,Summer,Cotton
+Gujarat,Summer,Groundnut
+Gujarat,Monsoon,Rice
+Gujarat,Monsoon,Pulses
+Gujarat,Spring,Groundnut
+Gujarat,Spring,Wheat
+Haryana,Winter,Wheat
+Haryana,Winter,Rice
+Haryana,Summer,Rice
+Haryana,Summer,Cotton
+Haryana,Monsoon,Rice
+Haryana,Monsoon,Wheat
+Haryana,Spring,Cotton
+Haryana,Spring,Pulses
+Himachal Pradesh,Winter,Wheat
+Himachal Pradesh,Winter,Apple
+Himachal Pradesh,Summer,Maize
+Himachal Pradesh,Summer,Rice
+Himachal Pradesh,Monsoon,Rice
+Himachal Pradesh,Monsoon,Tea
+Himachal Pradesh,Spring,Wheat
+Himachal Pradesh,Spring,Maize
+Jharkhand,Winter,Rice
+Jharkhand,Winter,Wheat
+Jharkhand,Summer,Rice
+Jharkhand,Summer,Maize
+Jharkhand,Monsoon,Rice
+Jharkhand,Monsoon,Pulses
+Jharkhand,Spring,Wheat
+Jharkhand,Spring,Maize
+Karnataka,Winter,Rice
+Karnataka,Winter,Coffee
+Karnataka,Summer,Rice
+Karnataka,Summer,Cotton
+Karnataka,Monsoon,Rice
+Karnataka,Monsoon,Coconut
+Karnataka,Spring,Rice
+Karnataka,Spring,Maize
+Kerala,Winter,Rice
+Kerala,Winter,Coconut
+Kerala,Summer,Rubber
+Kerala,Summer,Rice
+Kerala,Monsoon,Coconut
+Kerala,Monsoon,Banana
+Kerala,Spring,Rice
+Kerala,Spring,Rubber
+Madhya Pradesh,Winter,Wheat
+Madhya Pradesh,Winter,Soybean
+Madhya Pradesh,Summer,Cotton
+Madhya Pradesh,Summer,Rice
+Madhya Pradesh,Monsoon,Rice
+Madhya Pradesh,Monsoon,Pulses
+Madhya Pradesh,Spring,Soybean
+Madhya Pradesh,Spring,Wheat
+Maharashtra,Winter,Rice
+Maharashtra,Winter,Pulses
+Maharashtra,Summer,Cotton
+Maharashtra,Summer,Groundnut
+Maharashtra,Monsoon,Rice
+Maharashtra,Monsoon,Sugarcane
+Maharashtra,Spring,Pulses
+Maharashtra,Spring,Maize
+Manipur,Winter,Rice
+Manipur,Winter,Maize
+Manipur,Summer,Rice
+Manipur,Summer,Pineapple
+Manipur,Monsoon,Rice
+Manipur,Monsoon,Orange
+Manipur,Spring,Maize
+Manipur,Spring,Pineapple
+Meghalaya,Winter,Rice
+Meghalaya,Winter,Pineapple
+Meghalaya,Summer,Rice
+Meghalaya,Summer,Orange
+Meghalaya,Monsoon,Rice
+Meghalaya,Monsoon,Tea
+Meghalaya,Spring,Pineapple
+Meghalaya,Spring,Maize
+Mizoram,Winter,Rice
+Mizoram,Winter,Maize
+Mizoram,Summer,Rice
+Mizoram,Summer,Pineapple
+Mizoram,Monsoon,Rice
+Mizoram,Monsoon,Orange
+Mizoram,Spring,Maize
+Mizoram,Spring,Pineapple
+Nagaland,Winter,Rice
+Nagaland,Winter,Maize
+Nagaland,Summer,Rice
+Nagaland,Summer,Pineapple
+Nagaland,Monsoon,Rice
+Nagaland,Monsoon,Orange
+Nagaland,Spring,Maize
+Nagaland,Spring,Pineapple
+Odisha,Winter,Rice
+Odisha,Winter,Pulses
+Odisha,Summer,Rice
+Odisha,Summer,Oilseeds
+Odisha,Monsoon,Rice
+Odisha,Monsoon,Pulses
+Odisha,Spring,Oilseeds
+Odisha,Spring,Maize
+Punjab,Winter,Wheat
+Punjab,Winter,Barley
+Punjab,Summer,Rice
+Punjab,Summer,Cotton
+Punjab,Monsoon,Rice
+Punjab,Monsoon,Sugarcane
+Punjab,Spring,Mustard
+Punjab,Spring,Wheat
+Rajasthan,Winter,Wheat
+Rajasthan,Winter,Mustard
+Rajasthan,Summer,Bajra
+Rajasthan,Summer,Cotton
+Rajasthan,Monsoon,Rice
+Rajasthan,Monsoon,Pulses
+Rajasthan,Spring,Mustard
+Rajasthan,Spring,Bajra
+Sikkim,Winter,Rice
+Sikkim,Winter,Maize
+Sikkim,Summer,Rice
+Sikkim,Summer,Cardamom
+Sikkim,Monsoon,Rice
+Sikkim,Monsoon,Tea
+Sikkim,Spring,Maize
+Sikkim,Spring,Cardamom
+Tamil Nadu,Winter,Rice
+Tamil Nadu,Winter,Banana
+Tamil Nadu,Summer,Cotton
+Tamil Nadu,Summer,Groundnut
+Tamil Nadu,Monsoon,Rice
+Tamil Nadu,Monsoon,Coconut
+Tamil Nadu,Spring,Pulses
+Tamil Nadu,Spring,Maize
+Telangana,Winter,Rice
+Telangana,Winter,Cotton
+Telangana,Summer,Cotton
+Telangana,Summer,Maize
+Telangana,Monsoon,Rice
+Telangana,Monsoon,Pulses
+Telangana,Spring,Maize
+Telangana,Spring,Oilseeds
+Tripura,Winter,Rice
+Tripura,Winter,Rubber
+Tripura,Summer,Rice
+Tripura,Summer,Pineapple
+Tripura,Monsoon,Rice
+Tripura,Monsoon,Rubber
+Tripura,Spring,Pineapple
+Tripura,Spring,Maize
+Uttar Pradesh,Winter,Wheat
+Uttar Pradesh,Winter,Barley
+Uttar Pradesh,Summer,Rice
+Uttar Pradesh,Summer,Sugarcane
+Uttar Pradesh,Monsoon,Rice
+Uttar Pradesh,Monsoon,Wheat
+Uttar Pradesh,Spring,Mustard
+Uttar Pradesh,Spring,Pulses
+Uttarakhand,Winter,Rice
+Uttarakhand,Winter,Wheat
+Uttarakhand,Summer,Rice
+Uttarakhand,Summer,Tea
+Uttarakhand,Monsoon,Rice
+Uttarakhand,Monsoon,Maize
+Uttarakhand,Spring,Wheat
+Uttarakhand,Spring,Tea
+West Bengal,Winter,Jute
+West Bengal,Winter,Rice
+West Bengal,Summer,Rice
+West Bengal,Summer,Jute
+West Bengal,Monsoon,Rice
+West Bengal,Monsoon,Tea
+West Bengal,Spring,Rice
+West Bengal,Spring,Maize
+Andaman and Nicobar Islands,Winter,Rice
+Andaman and Nicobar Islands,Winter,Coconut
+Andaman and Nicobar Islands,Summer,Banana
+Andaman and Nicobar Islands,Summer,Rice
+Andaman and Nicobar Islands,Monsoon,Coconut
+Andaman and Nicobar Islands,Monsoon,Banana
+Andaman and Nicobar Islands,Spring,Rice
+Andaman and Nicobar Islands,Spring,Coconut
+Chandigarh,Winter,Wheat
+Chandigarh,Winter,Rice
+Chandigarh,Summer,Rice
+Chandigarh,Summer,Pulses
+Chandigarh,Monsoon,Rice
+Chandigarh,Monsoon,Wheat
+Chandigarh,Spring,Pulses
+Chandigarh,Spring,Wheat
+Dadra and Nagar Haveli and Daman and Diu,Winter,Rice
+Dadra and Nagar Haveli and Daman and Diu,Winter,Cotton
+Dadra and Nagar Haveli and Daman and Diu,Summer,Cotton
+Dadra and Nagar Haveli and Daman and Diu,Summer,Pulses
+Dadra and Nagar Haveli and Daman and Diu,Monsoon,Rice
+Dadra and Nagar Haveli and Daman and Diu,Monsoon,Pulses
+Dadra and Nagar Haveli and Daman and Diu,Spring,Cotton
+Dadra and Nagar Haveli and Daman and Diu,Spring,Rice
+Delhi,Winter,Wheat
+Delhi,Winter,Rice
+Delhi,Summer,Rice
+Delhi,Summer,Mustard
+Delhi,Monsoon,Rice
+Delhi,Monsoon,Wheat
+Delhi,Spring,Mustard
+Delhi,Spring,Pulses
+Jammu and Kashmir,Winter,Rice
+Jammu and Kashmir,Winter,Wheat
+Jammu and Kashmir,Summer,Rice
+Jammu and Kashmir,Summer,Apple
+Jammu and Kashmir,Monsoon,Rice
+Jammu and Kashmir,Monsoon,Maize
+Jammu and Kashmir,Spring,Wheat
+Jammu and Kashmir,Spring,Apple
+Ladakh,Winter,Barley
+Ladakh,Winter,Wheat
+Ladakh,Summer,Peas
+Ladakh,Summer,Barley
+Ladakh,Monsoon,Wheat
+Ladakh,Monsoon,Peas
+Ladakh,Spring,Barley
+Ladakh,Spring,Wheat
+Lakshadweep,Winter,Coconut
+Lakshadweep,Winter,Banana
+Lakshadweep,Summer,Banana
+Lakshadweep,Summer,Vegetables
+Lakshadweep,Monsoon,Coconut
+Lakshadweep,Monsoon,Banana
+Lakshadweep,Spring,Vegetables
+Lakshadweep,Spring,Coconut
+Puducherry,Winter,Rice
+Puducherry,Winter,Coconut
+Puducherry,Summer,Sugarcane
+Puducherry,Summer,Rice
+Puducherry,Monsoon,Coconut
+Puducherry,Monsoon,Banana
+Puducherry,Spring,Rice
+Puducherry,Spring,Sugarcane

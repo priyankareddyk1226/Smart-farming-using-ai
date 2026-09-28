@@ -1,0 +1,32 @@
+﻿{% extends 'base.html' %}
+{% block pagetitle %}
+Supplement Market
+{% endblock pagetitle %}
+{% block body %}
+<section class="page-intro">
+    <div class="hero-copy">
+        <span class="eyebrow">Supplement market</span>
+        <h1>Choose the right supplements and fertilizers for your plants.</h1>
+        <p>Browse trusted products matched to the disease diagnosis and support your plants' recovery.</p>
+    </div>
+    <div class="hero-media">
+        <div class="hero-card">
+            <img src="https://images.unsplash.com/photo-1740126102290-1a17ed6a1e6b?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Garden supplies" loading="lazy">
+        </div>
+    </div>
+</section>
+
+<section class="market-grid">
+    {% for index in range(0, supplement_name | length) %}
+        {% if index != 4 %}
+            <article class="market-card card">
+                <span class="status-chip">{% if index==3 or index==5 or index==7 or index==11 or index==15 or index==18 or index==20 or index==23 or index==24 or index==25 or index==28 or index==38 %}Fertilizer{% else %}Supplement{% endif %}</span>
+                <img src="{{ supplement_image[index] or 'https://images.unsplash.com/photo-1499908533625-46a67f5700d3?auto=format&fit=crop&w=900&q=80' }}" alt="{{ supplement_name[index] or 'Plant product' }}" loading="lazy">
+                <h4>{{ supplement_name[index] or 'Plant care product' }}</h4>
+                <p><strong>For:</strong> {{ disease[index] or 'Plant health' }}</p>
+                <a target="_blank" href="{{ buy[index] or '#' }}" class="btn btn-primary">Buy Product</a>
+            </article>
+        {% endif %}
+    {% endfor %}
+</section>
+{% endblock body %}

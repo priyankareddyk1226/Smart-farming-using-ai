@@ -1,0 +1,61 @@
+﻿{% extends 'base.html' %}
+{% block pagetitle %}
+AI Engine
+{% endblock pagetitle %}
+
+{% block body %}
+<section class="page-intro">
+    <div class="hero-copy">
+        <span class="eyebrow">AI powered diagnosis</span>
+        <h1>Upload a plant leaf and receive smart disease detection.</h1>
+        <p>Analyze symptoms with the AI engine and get prevention steps, treatment advice, and product recommendations.</p>
+    </div>
+    <div class="hero-media">
+        <div class="hero-card">
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=900&q=80" alt="AI engine" loading="lazy">
+        </div>
+    </div>
+</section>
+
+<section class="detail-grid">
+    <article class="panel-card card">
+        <h3>Why detect plant disease?</h3>
+        <p>Early detection prevents loss, improves plant health, and saves time by applying the right treatment before symptoms spread.</p>
+    </article>
+    <article class="panel-card card">
+        <h3>Upload your image</h3>
+        <form action="/submit" method="POST" enctype="multipart/form-data" class="card-copy">
+            <label for="actual-btn" class="status-chip">Choose Image</label>
+            <input type="file" id="actual-btn" hidden name="image" />
+            <p id="file-chosen">No file chosen</p>
+            <button type="submit" class="btn btn-primary">Submit for analysis</button>
+        </form>
+    </article>
+    <article class="panel-card card">
+        <h3>Protect your crops</h3>
+        <ol>
+            <li>Keep foliage dry and healthy.</li>
+            <li>Rotate crops and refresh soil.</li>
+            <li>Use supplements based on AI recommendations.</li>
+            <li>Inspect plants regularly for early signs.</li>
+        </ol>
+        <a target="_blank" href="https://www.thespruce.com/prevent-plant-diseases-in-your-garden-2539511" class="btn btn-secondary">Learn more</a>
+    </article>
+</section>
+
+<script>
+    const fileInput = document.getElementById('actual-btn');
+    const fileChosen = document.getElementById('file-chosen');
+
+    if (fileInput && fileChosen) {
+        fileInput.addEventListener('change', function () {
+            if (fileInput.files.length > 0) {
+                fileChosen.textContent = fileInput.files[0].name;
+            } else {
+                fileChosen.textContent = 'No file chosen';
+            }
+        });
+    }
+</script>
+
+{% endblock body %}

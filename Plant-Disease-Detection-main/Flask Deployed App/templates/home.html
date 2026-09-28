@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% block pagetitle %}
+Plant Disease Detection
+{% endblock pagetitle %}
+{% block body %}
+<section class="hero">
+    <div class="hero-copy">
+        <span class="eyebrow">Explore health insights</span>
+        <h1>Discover plant disease with fast, intelligent leaf analysis.</h1>
+        <p>Upload a leaf image to the AI engine and receive the right treatment advice for fruits and vegetables.</p>
+        <div class="hero-actions">
+            <a href="/index" class="btn btn-primary">Use AI Engine</a>
+            <a href="/market" class="btn btn-secondary">Explore Supplements</a>
+        </div>
+    </div>
+    <div class="hero-media">
+        <div class="hero-card">
+    <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80" alt="Plant disease analysis">
+        </div>
+    </div>
+</section>
+
+<section class="cards-grid">
+    <article class="panel-card card">
+        <h3>Supported crops</h3>
+        <p>Detect disease in apples, berries, tomatoes, corn, potatoes, and many other common crops.</p>
+    </article>
+    <article class="panel-card card">
+        <h3>Fast detection</h3>
+        <p>Get AI-assisted results instantly, with clear next steps to keep your plants healthy.</p>
+    </article>
+    <article class="panel-card card">
+        <h3>Guided care</h3>
+        <p>Receive prevention tips and product recommendations tailored to the diagnosis.</p>
+    </article>
+    <article class="panel-card card">
+        <h3>Modern UI</h3>
+        <p>Enjoy a clean, responsive layout designed for easy navigation and quick readability.</p>
+    </article>
+</section>
+
+<section class="cards-grid">
+    <article class="card">
+        <img src="https://post.healthline.com/wp-content/uploads/2020/09/Do_Apples_Affect_Diabetes_and_Blood_Sugar_Levels-732x549-thumbnail-1-732x549.jpg" alt="Apple" loading="lazy">
+        <h4>Apple</h4>
+    </article>
+    <article class="card">
+        <img src="https://www.supermarketperimeter.com/ext/resources/0430-blueberries.png?t=1588260305&width=1080" alt="Blueberry" loading="lazy">
+        <h4>Blueberry</h4>
+    </article>
+    <article class="card">
+        <img src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/slideshows/health_benefits_of_cherries_slideshow/1800x1200_health_benefits_of_cherries_slideshow.jpg" alt="Cherry" loading="lazy">
+        <h4>Cherry</h4>
+    </article>
+    <article class="card">
+        <img src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=900&q=80" alt="Sweet Corn" loading="lazy">
+        <h4>Wheat</h4>
+    </article>
+</section>
+
+{% endblock body %}
