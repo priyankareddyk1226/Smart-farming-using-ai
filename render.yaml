@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: plant-disease-detection
+    runtime: python
+    plan: free
+    rootDir: Plant-Disease-Detection-main/Flask Deployed App
+    buildCommand: pip install -r requirements_updated.txt
+    startCommand: gunicorn --bind 0.0.0.0:$PORT app:app
+    healthCheckPath: /
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.11
